@@ -1,0 +1,17 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>### Полезные настройки:\r\n Разобраться что делают команды.\r\n - `git config --global credential.helper store` \r\n - `git config --global alias.`\r\n - `git config --global http.proxy http://login:pas@proxy:8080`\r\n - `git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short`\r\n - `git log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative`\r\n - [еще немного полезных команд](https://tproger.ru/translations/most-common-git-screwupsquestions-and-solutions/amp/)\r\n - [ПРОЧИТАТЬ](https://habr.com/post/125999/)\r\n \r\n## Как начать работать\r\n \r\n 0. Войти на GitHub\r\n 1. Открыть репозиторий <https://github.com/frozzen256/группа> (основной репозиторий лабораторных)\r\n 2. Создать себе `Fork` этого репозитория\r\n 3. Загрузить созданный форк себе на компьютер\r\n 4. Создать к нему привязку `origin`\r\n 5. Создать привязку `upstream` к оригинальному репозиторию \r\n 6. Создать новую ветку для доработок `dev` \r\n 7. Произвести доработку и выполнить `commit`\r\n 8. Отправить созданную ветку в свой репозиторий \r\n 9. Зайти в свой репозиторий на GitHub и выполнить запрос (Pull Request) на внесение изменений в основной репозиторий лабораторных в ветку devlp\r\n\r\n#### Злые команды:\r\n\r\n_Как удалить последний коммит_\r\n `git reset --soft HEAD^`\r\n_Удалить коммит локально_\r\n `git reset HEAD~1 --hard`\r\n_и на сервер_\r\n `git push -f`\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision 0056dbb49b8d218020ad86770b5e2f8f0d2b11f4)
++++ README.md	(date 1605584208115)
+@@ -29,3 +29,7 @@
+  `git reset HEAD~1 --hard`
+ _и на сервер_
+  `git push -f`
++ 
++### Варианты
++Зуев - 10
++Петрунин - 13
