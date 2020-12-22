@@ -28,35 +28,22 @@ import static java.util.stream.Collectors.toList;
 
 public class Solution{
 
-    // Complete the migratoryBirds function below.
-    static int migratoryBirds(List<Integer> arr) {
-        int[] countByBirds = new int[5];
-        for(int i=0;i<arr.size();i++){
-            countByBirds[arr.get(i)-1] ++;
-        }
-        int maxIndex=-1;
-        int max=-1;
-        for(int i=0;i<countByBirds.length;i++){
-            if(countByBirds[i]>max) {
-                max=countByBirds[i];
-                maxIndex=i;
-            }
-        }
-        return  maxIndex+1;
-    }
+
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        /*BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-*/
-        int arrCount = Integer.parseInt(bufferedReader.readLine().trim());
 
+        Module m = new Module();
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        int arrCount = Integer.parseInt(bufferedReader.readLine().trim());
         List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
                 .map(Integer::parseInt)
                 .collect(toList());
+        m.setArr(arr);
+        new Thread(() -> { // Lambda Expression
+            System.out.println(m.migratoryBirds(m.getArr()));
+        }).start();
 
-
-        System.out.println(String.valueOf(migratoryBirds(arr)));
 
         bufferedReader.close();
     }

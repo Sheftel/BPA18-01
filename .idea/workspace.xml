@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94f637f1-64c6-4268-82be-0c019471259a" name="Default Changelist" comment="Updated .gitignore" />
+    <list default="true" id="94f637f1-64c6-4268-82be-0c019471259a" name="Default Changelist" comment="Updated .gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605584651737</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated .gitignore">
+      <created>1605589029339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605589029339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added .gitignore" />
@@ -121,10 +131,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605584619470" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605584655818">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605589032564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605584655818" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605589032564" />
     <state x="748" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605584612766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
